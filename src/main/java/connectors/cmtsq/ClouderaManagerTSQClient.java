@@ -30,7 +30,7 @@ public class ClouderaManagerTSQClient {
     public static void main( String[] ARGS ) {
 
         if (ARGS != null ) {
-            if (ARGS.length == 3 ) {
+            if (ARGS.length == 4 ) {
                 CM_HOST = ARGS[0];
                 CM_PORT = Integer.parseInt( ARGS[1] );
                 CM_USER = ARGS[2];
