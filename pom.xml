@@ -35,10 +35,13 @@
     </developers>
 
     <repositories>
-        <repository>
+             
+        <!--repository>
             <id>localMavenRepository</id>
             <url>file://${basedir}/localMavenRepository</url>
-        </repository>
+        </repository-->
+             
+             
     </repositories>
 
     <dependencies>
@@ -47,12 +50,13 @@
         Access CM via Java API
         * TimeSeriesResource is available in API v6
         -->
-        <dependency>
-            <groupId>com.cloudera.api</groupId>
-            <artifactId>cloudera-manager-api</artifactId>
-            <version>5.11.0</version>
-        </dependency>
-             
+<!-- https://mvnrepository.com/artifact/com.cloudera.api/cloudera-manager-api -->
+<dependency>
+    <groupId>com.cloudera.api</groupId>
+    <artifactId>cloudera-manager-api</artifactId>
+    <version>5.12.0</version>
+</dependency>
+
              
              <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-transports-http-jetty -->
 <dependency>
