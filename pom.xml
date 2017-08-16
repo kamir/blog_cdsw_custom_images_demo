@@ -41,6 +41,12 @@
             <url>file://${basedir}/localMavenRepository</url>
         </repository-->
              
+                  <repository>
+            <id>cdh.repo</id>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+            <name>Cloudera Repository</name>
+        </repository>
+             
              
     </repositories>
 
