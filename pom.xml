@@ -52,6 +52,13 @@
             <artifactId>cloudera-manager-api</artifactId>
             <version>5.11.0</version>
         </dependency>
+             
+        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-transports-http -->
+        <dependency>
+           <groupId>org.apache.cxf</groupId>
+           <artifactId>cxf-rt-transports-http</artifactId>
+           <version>3.1.12</version>
+        </dependency>
 
         <dependency>
             <groupId>org.jcuda</groupId>
@@ -98,17 +105,7 @@
             <artifactId>jcuda-vec</artifactId>
             <version>0.0.2</version>
         </dependency>
-
-        <!--dependency>
-            <groupId>de.javagl</groupId>
-            <artifactId>matrixmarketreader</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jcuda</groupId>
-            <artifactId>jcuda-matrix-utils</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency-->
+ 
 
         <dependency>
             <groupId>com.github.wendykierp</groupId>
