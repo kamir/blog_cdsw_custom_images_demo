@@ -1,4 +1,4 @@
-mvn exec:java -Dexec.mainClass="connectors.cmtsq.ClouderaManagerTSQClient" -Dexec.args="CMHOST admin admin"
+mvn exec:java -Dexec.mainClass="connectors.cmtsq.ClouderaManagerTSQClient" -Dexec.args="CMHOST PORT admin admin"
 
 
 
